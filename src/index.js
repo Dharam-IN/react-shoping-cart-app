@@ -4,8 +4,8 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
 import Layout from './Layout';
-import Home from './components/Pages/Home';
-import About from './components/Pages/About';
+import Home from './Pages/Home';
+import About from './Pages/About';
 import Context from './components/context/Context';
 
 
