@@ -32,7 +32,7 @@ const Header = () => {
               </Badge>
             </Dropdown.Toggle>
             <Dropdown.Menu style={{minWidth: 400, left: "auto", right:"0"}}>
-              <span style={{padding: 10}}>Cart is Empty</span>
+              <span style={{padding: 10}}>Cart is Empty:</span>
             </Dropdown.Menu>
           </Dropdown>
         </Container>
