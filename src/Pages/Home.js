@@ -1,12 +1,13 @@
-import React from 'react';
-import { CartState } from '../components/context/Context';
+import React, { useContext } from 'react';
 import FilterSec from '../components/FilterSec';
 import './style.css'
 import SingleProduct from '../components/SingleProduct';
+import { CartState } from '../context/Context';
 
 const Home = () => {
   
   const {state: {products},} = CartState();
+
   console.log(products)
 
   return (
@@ -15,8 +16,10 @@ const Home = () => {
         <FilterSec/>
         <div className="productscontainer">
           {
-            products.map((prod) => {
-              return <SingleProduct prod={prod}/>
+            products.map((data) => {
+              return(
+                <p>{data.name}</p>
+              )
             })
           }
         </div>

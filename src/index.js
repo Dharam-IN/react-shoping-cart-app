@@ -6,7 +6,7 @@ import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } 
 import Layout from './Layout';
 import Home from './Pages/Home';
 import About from './Pages/About';
-import Context from './components/context/Context';
+import Context from './context/Context';
 
 
 const router = createBrowserRouter(
