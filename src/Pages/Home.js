@@ -15,13 +15,15 @@ const Home = () => {
       <div className='home'>
         <FilterSec/>
         <div className="productscontainer">
-          {
-            products.map((data) => {
-              return(
-                <p>{data.name}</p>
-              )
-            })
-          }
+          <div className="row gap-3">
+            {
+              products.map((data) => {
+                return(
+                  <SingleProduct product={data}/>
+                )
+              })
+            }
+          </div>
         </div>
       </div>
     </>

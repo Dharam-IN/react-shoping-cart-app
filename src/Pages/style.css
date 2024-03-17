@@ -1,6 +1,7 @@
 .home {
   display: flex;
   padding: 15px;
+  justify-content: space-between;
 }
 .filters {
   background-color: #343a40;
@@ -20,7 +21,7 @@
   font-size: 30px;
 }
 
-.productContainer {
+.productscontainer {
   display: flex;
   width: 78%;
   padding: 20px;
